@@ -1,7 +1,7 @@
 # Countering Misinformation via Emotional Response Generation
 
 <p>
-    <img src="img/vermouth_logo_no_bg.png" width="25%" align="left">
+    <img src="img/vermouth_logo_no_bg.png" width="30%" align="left">
     <br>
     Welcome to the VerMouth dataset repository! VerMouth is a dataset for the automatic generation of personalised responses to misleading claims online.
     It was introduced in the paper <a href="" target="_blank">Countering Misinformation via Emotional Response Generation</a> presented at the EMNLP 2023 conference.
