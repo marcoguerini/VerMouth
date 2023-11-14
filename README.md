@@ -12,7 +12,7 @@ If you use the VerMouth datasets or any partial sections of it in your work, we 
 # VerMouth
 Vermouth dataset comprises ~12.000 entries. Each entry contains three elements:
 - **claim**: factual statement under analysis;
-- **fact-checking article**: a journalistic document containing all the evidence needed to fact-check a claim;
+- **fact-checking article**: the link to a journalistic document containing all the evidence needed to fact-check a claim;
 - **verdict**: a short textual response to the claim which explains **why** it might be true or false.
 
 :exclamation: **The dataset will be released soon!** :soon: 
