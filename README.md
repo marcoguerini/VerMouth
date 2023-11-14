@@ -1,21 +1,21 @@
 # Countering Misinformation via Emotional Response Generation
 
-Welcome to the VerMouth dataset repository! VerMouth is a dataset for the automatic generation of personalised responses to misleading claims online.
-It was introduced in the paper [**Countering Misinformation via Emotional Response Generation**]() presented at the EMNLP 2023 conference.
-If you use the VerMouth datasets or any partial sections of it in your work, we kindly request to [cite](https://github.com/marcoguerini/VerMouth/tree/main#bibtex-citation) our original paper.
-
-<div align="center">
-    <img src="img/vermouth_logo_no_bg.png" width="30%">
-</div>
+<p>
+    <img src="img/vermouth_logo_no_bg.png" width="20%" align="left">
+    <br>
+    Welcome to the VerMouth dataset repository! VerMouth is a dataset for the automatic generation of personalised responses to misleading claims online.
+    It was introduced in the paper <a href="" target="_blank">Countering Misinformation via Emotional Response Generation</a> presented at the EMNLP 2023 conference.
+    If you use the VerMouth datasets or any partial sections of it in your work, we kindly request to <a href="https://github.com/marcoguerini/VerMouth/tree/main#bibtex-citation">cite</a> our original paper.
+</p>
 
 
 # VerMouth
-Vermouth dataset comprises ~12.000 entries. Each entry contains three elements:
+
+VerMouth dataset comprises ~12.000 entries. Each entry contains three elements:
 - **claim**: factual statement under analysis;
 - **fact-checking article**: the link to a journalistic document containing all the evidence needed to fact-check a claim;
 - **verdict**: a short textual response to the claim which explains **why** it might be true or false.
 - **style**: a label indicating the style or emotion expressed in the claim.
-
 
 :exclamation: **The dataset will be released soon!** :soon: 
 
@@ -38,85 +38,29 @@ The following table presents the count of items for each subpart of the dataset.
   <tr>
     <th></th>
     <th></th>
-    <th></th>
     <th colspan="7">emotional style</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td></td>
-    <td>FullFact</td>
-    <td>SMP-style</td>
-    <td>happiness</td>
-    <td>anger</td>
-    <td>fear</td>
-    <td>disgust</td>
-    <td>sadness</td>
-    <td>surprise</td>
-    <td>all emotions</td>
+    <td align="center">SMP-style</td>
+    <td align="center">happiness</td>
+    <td align="center">anger</td>
+    <td align="center">fear</td>
+    <td align="center">disgust</td>
+    <td align="center">sadness</td>
+    <td align="center">surprise</td>
+    <td align="center">all emotions</td>
   </tr>
   <tr>
-    <td>COUNT</td>
-    <td>1838</td>
-    <td>1838</td>
-    <td>1527</td>
-    <td>1590</td>
-    <td>1805</td>
-    <td>1675</td>
-    <td>1758</td>
-    <td>1797</td>
-    <td>10152</td>
-  </tr>
-</tbody>
-</table>
-
-The following table shows the average length of claims and verdicts in the FullFact and VerMouth (SMP and emotional styles) datasets.
-
-<table>
-<thead>
-  <tr>
-    <th></th>
-    <th colspan="2">FullFact</th>
-    <th colspan="2">SMP-Style</th>
-    <th colspan="2">Emotional Style</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td></td>
-    <td>claim</td>
-    <td>verdict</td>
-    <td>claim</td>
-    <td>verdict</td>
-    <td>claim</td>
-    <td>verdict</td>
-  </tr>
-  <tr>
-    <td>Tokens</td>
-    <td>18.0</td>
-    <td>35.5</td>
-    <td>34.1</td>
-    <td>52.3</td>
-    <td>52.8</td>
-    <td>61.3</td>
-  </tr>
-  <tr>
-    <td>Words</td>
-    <td>16.5</td>
-    <td>33.7</td>
-    <td>29.1</td>
-    <td>51.0</td>
-    <td>47.5</td>
-    <td>57.6</td>
-  </tr>
-  <tr>
-    <td>Sentences</td>
-    <td>1.0</td>
-    <td>1.9</td>
-    <td>2.6</td>
-    <td>2.5</td>
-    <td>3.4</td>
-    <td>3.0</td>
+    <td align="center">1838</td>
+    <td align="center">1527</td>
+    <td align="center">1590</td>
+    <td align="center">1805</td>
+    <td align="center">1675</td>
+    <td align="center">1758</td>
+    <td align="center">1797</td>
+    <td align="center">10152</td>
   </tr>
 </tbody>
 </table>
