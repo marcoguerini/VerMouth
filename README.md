@@ -14,6 +14,8 @@ Vermouth dataset comprises ~12.000 entries. Each entry contains three elements:
 - **claim**: factual statement under analysis;
 - **fact-checking article**: the link to a journalistic document containing all the evidence needed to fact-check a claim;
 - **verdict**: a short textual response to the claim which explains **why** it might be true or false.
+- **style**: a label indicating the style or emotion expressed in the claim.
+
 
 :exclamation: **The dataset will be released soon!** :soon: 
 
