@@ -19,7 +19,7 @@ Vermouth dataset comprises ~12.000 entries. Each entry contains three elements:
 
 :exclamation: **The dataset will be released soon!** :soon: 
 
-## Dataset details
+## Dataset Description
 
 Starting from the FullFact dataset [(Russo et al., 2023)](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00601/117871/Benchmarking-the-Generation-of-Fact-Checking) we rewrote both the claims and the verdict according to a social communication style.
 To this end, we adopted the author-reviewer pipeline [(Tekiroğlu et al., 2020)](https://aclanthology.org/2020.acl-main.110/) which combines instruction-based Large Language Models and human post-editing.
@@ -124,6 +124,10 @@ The following table shows the average length of claims and verdicts in the FullF
 ## Examples
 
  <img src="img/vermouth_examples.png">
+
+
+## Dataset Details
+
 
 ## BibTex Citation
 
