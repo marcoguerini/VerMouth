@@ -17,7 +17,7 @@ VerMouth dataset comprises ~12.000 entries. Each entry contains three elements:
 - **verdict**: a short textual response to the claim which explains **why** it might be true or false.
 - **style**: a label indicating the style or emotion expressed in the claim.
 
-:exclamation: **The dataset will be released soon!** :soon: 
+:exclamation: **The dataset will be released after the presentation of the paper at EMNLP 2023** 
 
 ## Dataset Description
 
@@ -70,18 +70,16 @@ The following table presents the count of items for each subpart of the dataset.
  <img src="img/vermouth_examples.png">
 
 
-## Dataset Details
-
-
 ## BibTex Citation
 
 If you use the VerMouth dataset in your research, please cite the following paper:
 
 ```bibtex
-@inproceedings{russo-2023-countering,
+@inproceedings{russo-etal-2023-countering,
     title = {Countering Misinformation via Emotional Response Generation},
     author = {Russo, Daniel and Shane Peter, Kaszefski-Yaschuk and Staiano, Jacopo and Guerini, Marco},
-    booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+    booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+    publisher = "Association for Computational Linguistics",
     year = {2023},
 }
 ```
