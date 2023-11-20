@@ -37,7 +37,6 @@ The following table presents the count of items for each subpart of the dataset.
 <thead>
   <tr>
     <th></th>
-    <th></th>
     <th colspan="7">emotional style</th>
   </tr>
 </thead>
