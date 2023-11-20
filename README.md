@@ -4,7 +4,7 @@
     <img src="img/vermouth_logo_no_bg.png" width="30%" align="left">
     <br>
     Welcome to the VerMouth dataset repository! VerMouth is a dataset for the automatic generation of personalised responses to misleading claims online.
-    It was introduced in the paper <a href="" target="_blank">Countering Misinformation via Emotional Response Generation</a> presented at the EMNLP 2023 conference.
+    It was introduced in the paper <a href="https://arxiv.org/abs/2311.10587" target="_blank">Countering Misinformation via Emotional Response Generation</a> presented at the EMNLP 2023 conference.
     If you use the VerMouth datasets or any partial sections of it in your work, we kindly request to <a href="https://github.com/marcoguerini/VerMouth/tree/main#bibtex-citation">cite</a> our original paper.
 </p>
 
@@ -28,7 +28,7 @@ A schema of our data collection strategy is depicted in the following image.
  <img src="img/data_collection.png" width="50%">
 
 The final data were rewritten according to two styles: 
-- **SMP style**: it resembles the style employed on social media platforms, in particular, Twitter style
+- **SMP style**: it resembles the style employed on social media platforms, in particular, Twitter style.
 - **Emotional style**: social media communication style with the addition of an **emotional component**. We adopted the six basic emotions from Paul Ekman, namely anger, surprise, disgust, enjoyment, fear, and sadness.
 
 The following table presents the count of items for each subpart of the dataset.
