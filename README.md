@@ -91,4 +91,4 @@ This resource can be used for research purposes only and cannot be redistributed
 
 ---
 
-**For any questions or inquiries, please contact drusso@fbk.eu**
+**For any questions or inquiries, please contact drusso@fbk.eu and guerini@fbk.eu**
