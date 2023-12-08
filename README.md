@@ -17,7 +17,7 @@ VerMouth dataset comprises ~12.000 entries. Each entry contains three elements:
 - **verdict**: a short textual response to the claim which explains **why** it might be true or false.
 - **style**: a label indicating the style or emotion expressed in the claim.
 
-:exclamation: **The dataset will be released after the presentation of the paper at EMNLP 2023** 
+<!--- :exclamation: **The dataset will be released after the presentation of the paper at EMNLP 2023** --->
 
 ## Dataset Description
 
@@ -68,6 +68,9 @@ The following table presents the count of items for each subpart of the dataset.
 
  <img src="img/vermouth_examples.png">
 
+ ## File Description
+
+ In the folder `data`, we provide the VerMouth dataset partitioned in _train_, _val_, and _test_ sets. Each entry of the dataset comprises and _id_, a _claim_, a _verdict_, a _link_ to the FullFact fact-checking article, and a "_style label_" (_SMP_, _anger_, _disgust_, _fear_, _sadness_, _happiness_, _disgust_) — the different versions of a claim present the same id.
 
 ## BibTex Citation
 
@@ -84,10 +87,8 @@ If you use the VerMouth dataset in your research, please cite the following pape
 ```
 
 ## License
-
-This resource can be used for research purposes only and cannot be redistributed. Please cite the corresponding publication if you use it.
-
+VerMouth can be used for research purposes and cannot be redistributed. Please cite the corresponding publication if you use it.
 
 ---
 
-**For any questions or inquiries, please contact drusso@fbk.eu and guerini@fbk.eu**
+**For any questions or inquiries, don't hesitate to get in touch with drusso@fbk.eu and guerini@fbk.eu**
