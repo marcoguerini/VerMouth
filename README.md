@@ -4,7 +4,7 @@
     <img src="img/vermouth_logo_no_bg.png" width="30%" align="left">
     <br>
     Welcome to the VerMouth dataset repository! VerMouth is a dataset for the automatic generation of personalised responses to misleading claims online.
-    It was introduced in the paper <a href="https://arxiv.org/abs/2311.10587" target="_blank">Countering Misinformation via Emotional Response Generation</a> presented at the EMNLP 2023 conference.
+    It was introduced in the paper <a href="https://aclanthology.org/2023.emnlp-main.703/" target="_blank">Countering Misinformation via Emotional Response Generation</a> presented at the EMNLP 2023 conference.
     If you use the VerMouth datasets or any partial sections of it in your work, we kindly request to <a href="https://github.com/marcoguerini/VerMouth/tree/main#bibtex-citation">cite</a> our original paper.
 </p>
 
@@ -70,7 +70,7 @@ The following table presents the count of items for each subpart of the dataset.
 
  ## File Description
 
- In the folder `data`, we provide the VerMouth dataset partitioned in _train_, _val_, and _test_ sets. Each entry of the dataset comprises and _id_, a _claim_, a _verdict_, a _link_ to the FullFact fact-checking article, and a "_style label_" (_SMP_, _anger_, _disgust_, _fear_, _sadness_, _happiness_, _disgust_) — the different versions of a claim present the same id.
+ In the folder `data`, we provide the VerMouth dataset partitioned in _train_, _val_, and _test_ sets. Each entry of the dataset comprises an _id_, a _claim_, a _verdict_, a _link_ to the FullFact fact-checking article, and a "_style label_" (_SMP_, _anger_, _disgust_, _fear_, _sadness_, _happiness_, _disgust_) — the different versions of a claim present the same id.
 
 ## BibTex Citation
 
@@ -78,11 +78,22 @@ If you use the VerMouth dataset in your research, please cite the following pape
 
 ```bibtex
 @inproceedings{russo-etal-2023-countering,
-    title = {Countering Misinformation via Emotional Response Generation},
-    author = {Russo, Daniel and Shane Peter, Kaszefski-Yaschuk and Staiano, Jacopo and Guerini, Marco},
-    booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+    title = "Countering Misinformation via Emotional Response Generation",
+    author = "Russo, Daniel  and
+      Kaszefski-Yaschuk, Shane  and
+      Staiano, Jacopo  and
+      Guerini, Marco",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
     publisher = "Association for Computational Linguistics",
-    year = {2023},
+    url = "https://aclanthology.org/2023.emnlp-main.703",
+    doi = "10.18653/v1/2023.emnlp-main.703",
+    pages = "11476--11492",
 }
 ```
 
